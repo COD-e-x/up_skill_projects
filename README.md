@@ -22,4 +22,4 @@
 
 1. **game_of_life_mvc**
    - Описание: Проект из книги, который я попытался улучшить. Основная информация содержится в самой директории. 
-   - [Ссылка на проект](hhttps://github.com/COD-e-x/up_skill_projects/tree/main/game_of_life_mvc)
+   - [Ссылка на проект](https://github.com/COD-e-x/up_skill_projects/tree/master/game_of_life_mvc)
