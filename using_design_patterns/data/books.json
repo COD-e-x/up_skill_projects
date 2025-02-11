@@ -1,0 +1,54 @@
+{
+  "books": {
+    "b-001": {
+      "book_id": "b-001",
+      "title": "book 01",
+      "author": "author 01",
+      "year": 2000,
+      "available": false
+    },
+    "b-004": {
+      "book_id": "b-004",
+      "title": "book 04",
+      "author": "autor 04",
+      "year": 2004,
+      "available": false
+    },
+    "b-005": {
+      "book_id": "b-005",
+      "title": "book 05",
+      "author": "author 05",
+      "year": 2003,
+      "available": false
+    },
+    "b-006": {
+      "book_id": "b-006",
+      "title": "book 06",
+      "author": "author 06",
+      "year": 2000,
+      "available": true
+    }
+  },
+  "readers": {
+    "r-001": {
+      "reader_id": "r-001",
+      "name": "reader 01",
+      "email": "e-mal 01"
+    },
+    "r-002": {
+      "reader_id": "r-002",
+      "name": "reader 02",
+      "email": "e-mal 02"
+    },
+    "r-005": {
+      "reader_id": "r-005",
+      "name": "reader 05",
+      "email": "e-mal 05"
+    }
+  },
+  "borrowed_book": {
+    "b-001": "r-005",
+    "b-004": "r-005",
+    "b-005": "r-001"
+  }
+}

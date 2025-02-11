@@ -7,8 +7,8 @@ class GameController:
 
     def __init__(self, game, view):
         """Инициализация контроллера и привязка событий."""
-        self.game = game
-        self.view = view
+        self.game = game # model
+        self.view = view # view
         self.is_running = False
         self.view.bind_events(self)
 
